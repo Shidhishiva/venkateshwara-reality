@@ -1,16 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import projectImg1 from "../img/project-4.jpg";
-import projectImg2 from "../img/project-5.jpg";
-import projectImg3 from "../img/project-6.jpg";
-import projectImg4 from "../img/project-7.jpg";
-import projectImg5 from "../img/project-8.jpg";
-import projectImg6 from "../img/project-9.jpg";
-import projectImg7 from "../img/project-10.jpg";
-import projectImg8 from "../img/project-11.jpg";
-import projectImg9 from "../img/project-12.jpg";
-import projectImg10 from "../img/project-13.jpg";
+import projectImg1 from "../img/project_4.png";
+import projectImg2 from "../img/project_5.png";
+import projectImg3 from "../img/project_6.png";
+import projectImg4 from "../img/project_7.png";
+import projectImg5 from "../img/project_8.png";
+import projectImg6 from "../img/project_9.png";
+import projectImg7 from "../img/project_10.png";
+import projectImg8 from "../img/project_11.png";
+import projectImg9 from "../img/project_12.png";
+import projectImg10 from "../img/project_13.png";
 
 // import "./style.css";
 
@@ -32,10 +32,10 @@ const ProjectList = () => {
               <div className="col-md-5  col-sm-6">
                 <div className="project-box">
                   <Link to="/projects-single">
-                    <img src={projectImg1} alt="img" />
+                    <img src={projectImg1} style={{objectFit:"cover"}} alt="img" />
                     <h3>
-                      CONCERT HALL
-                      <br /> IN NEW WORK
+                      EverSmile
+                      <br /> IN Andheri
                     </h3>
                     <p>ARCHITECTURE</p>
                     <div className="project-zoom">
@@ -66,8 +66,8 @@ const ProjectList = () => {
                   <Link to="/projects-single">
                     <img src={projectImg2} alt="img" />
                     <h3>
-                      MODERN INTERIOR
-                      <br /> IN AUSTRALIA
+                      Jaonitavilla
+                      <br /> IN Andheri
                     </h3>
                     <p>INTERIOR</p>
                     <div className="project-zoom">
@@ -98,8 +98,8 @@ const ProjectList = () => {
                   <Link to="/projects-single">
                     <img src={projectImg3} alt="img" />
                     <h3>
-                      DRAWING ROOM
-                      <br /> IN LAS VEGAS
+                      Karmayog
+                      <br /> IN Andheri
                     </h3>
                     <p>INTERIOR</p>
                     <div className="project-zoom">
@@ -130,8 +130,8 @@ const ProjectList = () => {
                   <Link to="/projects-single">
                     <img src={projectImg4} alt="img" />
                     <h3>
-                      SWIMMING POOL
-                      <br /> IN ROMANIA
+                      Krishnatara
+                      <br /> IN Goregaon
                     </h3>
                     <p>HOUSE PLANNING</p>
                     <div className="project-zoom">
@@ -162,8 +162,8 @@ const ProjectList = () => {
                   <Link to="/projects-single">
                     <img src={projectImg5} alt="img" />
                     <h3>
-                      MODERN OFFICE
-                      <br /> IN LOS ANGELS
+                      Pallavi
+                      <br /> IN Andheri
                     </h3>
                     <p>INTERIOR</p>
                     <div className="project-zoom">
@@ -194,8 +194,8 @@ const ProjectList = () => {
                   <Link to="/projects-single">
                     <img src={projectImg6} alt="img" />
                     <h3>
-                      MASTER KITCHEN
-                      <br /> IN DHAKA
+                      Ratnadeep
+                      <br /> IN Chembur
                     </h3>
                     <p>ARCHITECTURE</p>
                     <div className="project-zoom">
@@ -226,8 +226,8 @@ const ProjectList = () => {
                   <Link to="/projects-single">
                     <img src={projectImg7} alt="img" />
                     <h3>
-                      MODERN RESTURENT
-                      <br /> IN BAHRAIN
+                      Ravikiran
+                      <br /> IN Andheri
                     </h3>
                     <p>INTERIOR</p>
                     <div className="project-zoom">
@@ -258,8 +258,8 @@ const ProjectList = () => {
                   <Link to="/projects-single">
                     <img src={projectImg8} alt="img" />
                     <h3>
-                      MODERN HALL ROOM
-                      <br /> IN AUSTRALIA
+                      SbiMilan
+                      <br /> IN Andheri
                     </h3>
                     <p>ARCHITECTURE</p>
                     <div className="project-zoom">
@@ -290,8 +290,8 @@ const ProjectList = () => {
                   <Link to="/projects-single">
                     <img src={projectImg9} alt="img" />
                     <h3>
-                      MODERN HOUSE
-                      <br /> IN PARIS
+                      Shraddha
+                      <br /> IN Borivali
                     </h3>
                     <p>ARCHITECTURE</p>
                     <div className="project-zoom">
@@ -322,8 +322,8 @@ const ProjectList = () => {
                   <Link to="/projects-single">
                     <img src={projectImg10} alt="img" />
                     <h3>
-                      MODERN HOTEL
-                      <br /> IN BAHRAIN
+                      Sky Residency
+                      <br /> IN Mankhurd
                     </h3>
                     <p>FURNITURE DESIGN</p>
                     <div className="project-zoom">

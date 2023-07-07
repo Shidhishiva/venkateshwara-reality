@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import projectImg1 from "../img/project-1.png";
-import projectImg2 from "../img/project-2.png";
-import projectImg3 from "../img/project-3.png";
+import projectImg1 from "../img/project_1.png";
+import projectImg2 from "../img/project_2.png";
+import projectImg3 from "../img/project_3.png";
 
 // import "./style.css";
 
