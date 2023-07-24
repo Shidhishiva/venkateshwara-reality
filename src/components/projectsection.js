@@ -21,8 +21,8 @@ const ProjectSection = () => {
               <Link to="/projects-single">
                 <img src={projectImg1} alt="img" />
                 <h3>
-                  CONCERT HALL
-                  <br /> IN NEW WORK
+                  Ajanta
+                  <br /> IN Andheri
                 </h3>
                 <p>INTERIOR</p>
                 <div className="project-zoom">
@@ -58,8 +58,8 @@ const ProjectSection = () => {
               <Link to="/projects-single">
                 <img src={projectImg3} alt="img" />
                 <h3>
-                  MODERN LIVING
-                  <br /> ROOM
+                  Ekopa
+                  <br /> Andheri
                 </h3>
                 <p>INTERIOR</p>
                 <div className="project-zoom">
@@ -88,8 +88,8 @@ const ProjectSection = () => {
               <Link to="/projects-single">
                 <img src={projectImg2} alt="img" />
                 <h3>
-                  MODERN HOTEL
-                  <br /> IN AUSTRALIA
+                  BlueStar
+                  <br /> IN Andheri
                 </h3>
                 <p>ARCHITECTURE</p>
                 <div className="project-zoom">

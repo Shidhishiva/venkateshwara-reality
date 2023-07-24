@@ -72,74 +72,7 @@ class Hero extends Component {
               <i className="fa fa-angle-right"></i>
             </button>
           </div>
-          <Slider ref={(c) => (this.slider = c)} {...settings}>
-            <div className="slide">
-              <div
-                className="hero-slide-item"
-                style={{ backgroundImage: `url(${hero1})` }}
-              >
-                <div className="container">
-                  <div className="hero-text">
-                    <h2>
-                      Unique Architecture <br />
-                      Design Ideas
-                    </h2>
-                    <div className="hero-action">
-                      <Link to="/projects" className="cta-btn btn-fill">
-                        See Projects
-                      </Link>
-                      <Link to="/contact" className="cta-btn btn-border">
-                        Get Contact
-                      </Link>
-                    </div>
-                  </div>
-                  <div className="video-main">
-                    <div className="promo-video">
-                      <div className="waves-block">
-                        <div className="waves wave-1" />
-                        <div className="waves wave-2" />
-                        <div className="waves wave-3" />
-                      </div>
-                    </div>
-                    <VideoModal videoId="BqI0Q7e4kbk" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="slide">
-              <div
-                className="hero-slide-item"
-                style={{ backgroundImage: `url(${hero2})` }}
-              >
-                <div className="container">
-                  <div className="hero-text">
-                    <h2>
-                      Unique Architecture <br />
-                      Design Ideas
-                    </h2>
-                    <div className="hero-action">
-                      <Link to="/projects" className="cta-btn btn-fill">
-                        See Projects
-                      </Link>
-                      <Link to="/contact" className="cta-btn btn-border">
-                        Get Contact
-                      </Link>
-                    </div>
-                  </div>
-                  <div className="video-main">
-                    <div className="promo-video">
-                      <div className="waves-block">
-                        <div className="waves wave-1" />
-                        <div className="waves wave-2" />
-                        <div className="waves wave-3" />
-                      </div>
-                    </div>
-                    <VideoModal videoId="WVPfu1yOOko" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </Slider>
+          <video src="venkateshwara-realty.mp4" autoplay={true}/>
         </div>
       </section>
     );

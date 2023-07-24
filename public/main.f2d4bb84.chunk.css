@@ -6026,6 +6026,14 @@ ul.footer-contact {
 .project-box a {
   display: block;
 }
+.project-box img {
+  width: 100%;
+  transition: 0.5s all ease-in-out;
+}
+
+.project-box:hover img {
+  transform: scale(1.5);
+}
 .project-box {
   position: relative;
   z-index: 1;
