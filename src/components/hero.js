@@ -1,14 +1,11 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import { Link } from "react-router-dom";
-import VideoModal from "./modalvideo";
+import backGroundVideo from"../venkateshwara-realty.mp4";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import hero1 from "../img/VR-1.jpeg";
-import hero2 from "../img/VR-2.jpeg";
 
-// import "./style.css";
 
 class Hero extends Component {
   constructor(props) {
@@ -72,7 +69,9 @@ class Hero extends Component {
               <i className="fa fa-angle-right"></i>
             </button>
           </div>
-          <video src="venkateshwara-realty.mp4" autoplay={true}/>
+          <video className="background-video" autoPlay loop muted>
+            <source src={backGroundVideo} type="video/mp4"/>
+          </video>
         </div>
       </section>
     );
